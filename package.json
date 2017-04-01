@@ -1,0 +1,27 @@
+{
+  "name": "learntravis",
+  "version": "1.0.0",
+  "description": "learttravis",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JYDwayne/useoftravis.git"
+  },
+  "keywords": [
+    "travis"
+  ],
+  "author": "dwayne",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JYDwayne/useoftravis/issues"
+  },
+  "homepage": "https://github.com/JYDwayne/useoftravis#readme",
+  "dependencies": {
+    "cheerio": "^0.22.0",
+    "express": "^4.15.2",
+    "superagent": "^3.5.2"
+  }
+}
