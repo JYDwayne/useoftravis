@@ -1,8 +1,17 @@
-language: node_js
-node_js:
-  - "5.11.1"
-  - "6.0.1"
-  - "6.1.1"
-  - "7.7.1"
+# language: node_js
+# node_js:
+#   - "5.11.1"
+#   - "6.0.1"
+#   - "6.1.1"
+#   - "7.7.1"
 
-script: make test
+# script: make test
+
+{
+  "language": "node_js",
+  "node_js": ["5.11.1", "6.0.1", "6.1.1", "7.7.1"],
+  "script": "make test",
+  "group": "stable",
+  "dist": "precise",
+  "os": "linux"
+}
